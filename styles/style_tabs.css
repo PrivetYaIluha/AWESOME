@@ -1,11 +1,11 @@
 .tabs {
   width: 100%;
 }
-.tabs__container {
+.tabs-container {
   width: 1170px;
   margin: 0 auto;
 }
-.tabs__header__block {
+.tabs-header__block {
   display: inline-block;
   width: 203px;
   height: 40px;
@@ -28,23 +28,23 @@
   border-bottom: none;
   border-radius: 2px;
 }
-.tabs__content__text {
+.tabs-content__text {
   height: 501px;
   width: 696px;
   display: inline-block;
   margin-left: 100px;
 }
-.tabs__content__image {
+.tabs-content__image {
   display: inline-block;
 }
-.tabs__content {
+.tabs-content {
   display: flex;
   border-left: 1px solid #c6cbcd;
   border-right: 1px solid #c6cbcd;
   border-bottom: 1px solid #c6cbcd;
   border-radius: 2px;
 }
-.tabs__content__title {
+.tabs-content__text_title {
   font-family: "Open Sans";
   font-weight: 700;
   height: 124px;
@@ -54,7 +54,7 @@
 
   color: #000000;
 }
-.tabs__content__description {
+.tabs-content__text_description {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 18px;
@@ -63,7 +63,7 @@
 
   color: #000000;
 }
-.tabs__content__button {
+.tabs-content__text_button {
   background-color: #ec7979;
   height: 58px;
   width: 270px;
