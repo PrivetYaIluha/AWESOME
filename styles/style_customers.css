@@ -4,20 +4,20 @@
   padding: 0 15px 58px;
   margin: 0 auto;
 }
-.customers-header_title {
+.customers-header__title {
   font-family: "Raleway", sans-serif;
   font-size: 36px;
   font-weight: 400;
   padding-top: 57px;
   padding-bottom: 57px;
 }
-.customers-header_border {
+.customers-header__border {
   width: 170px;
   margin: auto;
   border: none;
   border-top: 1px solid rgba(236, 121, 121, 1);
 }
-.customers-header_subtitle {
+.customers-header__subtitle {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -30,7 +30,7 @@
   justify-content: space-between;
   margin: 0 auto;
 }
-.customers-content__comment_text {
+.customers-content__comment__text {
   width: 370px;
   height: 180px;
   background: #e2e2e2;
@@ -44,7 +44,7 @@
   padding: 38px 20px;
   box-sizing: border-box;
 }
-.customers-conent__comment_triangle {
+.customers-conent__comment__triangle {
   width: 30px;
   height: 30px;
 
@@ -59,7 +59,7 @@
   display: flex;
   margin-top: 40px;
 }
-.customers-content__manager_name {
+.customers-content__manager__name {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
@@ -70,7 +70,7 @@
   display: block;
   margin-bottom: 25px;
 }
-.customers-content__manager_post {
+.customers-content__manager__post {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
