@@ -1,0 +1,50 @@
+.stylish-about {
+  text-align: center;
+  padding: 0 15px 58px;
+  margin: 0 auto;
+}
+.stylish-about_title {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  padding-top: 57px;
+  padding-bottom: 57px;
+  color: #ffffff;
+}
+.stylish-about_border {
+  width: 170px;
+  margin: auto;
+  border: none;
+  border-top: 1px solid rgba(236, 121, 121, 1);
+}
+.stylish-about_subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 40px;
+}
+.stylish-about__content {
+  background-image: url(../img/bg.png);
+  height: 442px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.stylish-about__button {
+  width: 270px;
+  height: 58px;
+  color: white;
+  font-family: "Open sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  margin-top: 50px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
