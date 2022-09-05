@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 74px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_logo {
+  display: inline-block;
+  padding-left: 115px;
+  line-height: 95px;
+  height: 74px;
+}
+.header__logo__img {
+  display: inline;
+}
+
+.header__navigation {
+  display: inline-block;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 10px;
+  color: white;
+}
+
+.header__navigation__link {
+  line-height: 19px;
+  color: white;
+  text-decoration: none;
+  padding: 0 30px;
+}
+
+.header__navigation__link:last-child {
+  padding-right: 115px;
+}
